@@ -55,3 +55,22 @@ img {
     background-color: lightskyblue;
     color:#334155;
 }
+.secondary-button {
+    background-color: #dbe0e7;
+    color: #334155;
+    text-decoration: none;
+    font-size:18px;
+    font-weight:600;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+.secondary-button:hover {
+    background-color: #fefefe;
+}
+.secondary-button:active {
+    background-color: lightskyblue;
+}
+.secondary-button:focus {
+    background-color: #334155;
+    color:#dbe0e7;
+}
