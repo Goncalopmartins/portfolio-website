@@ -3,6 +3,11 @@ body {background-color:#F8FAFC;
     size: 16px;
     color:#334155;
 }
+header {
+    background-color: #fefefe;
+    padding: 10px;
+    border-bottom: 1px solid #4a4a4a;
+}
 
 img {
     width: 100%;
@@ -96,6 +101,7 @@ p.caption {
     font-weight:600;
     padding: 10px 40px;
     border-radius: 40px;
+    display:inline-block;
 }
 .primary-button {
     background-color: #334155;
