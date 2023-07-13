@@ -1,7 +1,21 @@
-body {background-color:#303741;}
-body {font-family: 'Poppins', sans-serif;}
+body {background-color:#303741;
+    font-family: 'Poppins', sans-serif;
+    size: 16px;
+    color: #fefefe;
+}
+h1, h2, h3, h4, h5, h6, p {line-height:1.5}
 h1 {
-    font-size: 40;
-    line-height: 1.5;
-    font-style: bold;
+    font-size: 2.75em;
+    font-weight: 900;
+}
+h2 {
+    font-size: 2.25em;
+    font-weight: 900;
+}
+h3 {
+    font-size: 1.75em;
+    font-weight: 600
+}
+p {
+    font-weight: 400;
 }
