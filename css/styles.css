@@ -22,17 +22,25 @@ p {
 img {
     width: 100%;
   }
-a {
+.alink {
     color: #0e6dbb;
     text-decoration: none; /* No underlining */
 }
-a:hover {
+.alink:hover {
     color: #9b3e1c;
     text-decoration: underline; /* Underlining when hovering over a link */
 }
-a:visited { /* visited link */
+.alink:visited { /* visited link */
     color: #7e05b6;
 }
-a:active { /* selected link */
+.alink:active { /* selected link */
     color: #0d5707;
+}
+.primary-button {
+    background-color: #334155;
+    color:#fefefe;
+    font-size:18px;
+    font-weight:600;
+    padding: 10px 20px;
+    border-radius: 40;
 }
