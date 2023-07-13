@@ -28,6 +28,9 @@ h1.byline {
     color: #fefefe;
     text-transform: uppercase;
 }
+.white {
+    color:#fefefe
+}
 h2 {
     font-size: 2.25em;
     font-weight: 900;
@@ -45,13 +48,23 @@ h3 {
 p {
     font-weight: 400;
 }
+.bold {
+    font-weight: 650;
+}
 p.caption {
-    font-size: 0.75em
+    font-size: 0.75em;
+}
+.small {
+    font-size: 0.875em
 }
 
 /*spans*/
 
 .introductoryh1::before{
+    content: "\a";
+    white-space: pre;
+  }
+.newline::before{
     content: "\a";
     white-space: pre;
   }
