@@ -3,14 +3,22 @@ body {background-color:#F8FAFC;
     size: 16px;
     color:#334155;
 }
+
+img {
+    width: 100%;
+  }
+
+
+/*Typography*/
+
 h1, h2, h3, h4, h5, h6, p {line-height:1.5}
 h1 {
     font-size: 2.75em;
     font-weight: 900;
 }
 .introductoryh1 {
-    font-size: 0.5em;
-    font-weight: 600;
+    font-size: 0.75em;
+    font-weight: 400;
     opacity: 0.7;
     line-height: 1;
 }
@@ -25,25 +33,32 @@ h3 {
 p {
     font-weight: 400;
 }
-img {
-    width: 100%;
-  }
+p.caption {
+    font-size: 0.75em
+}
+
+/*spans*/
+
 .introductoryh1::before{
     content: "\a";
     white-space: pre;
   }
+
+
+/*Links and Buttons*/
+
 .alink {
     color: #0e6dbb;
-    text-decoration: none; /* No underlining */
+    text-decoration: none;
 }
 .alink:hover {
     color: #9b3e1c;
-    text-decoration: underline; /* Underlining when hovering over a link */
+    text-decoration: underline;
 }
-.alink:visited { /* visited link */
+.alink:visited {
     color: #7e05b6;
 }
-.alink:active { /* selected link */
+.alink:active {
     color: #0d5707;
 }
 .primary-button, .secondary-button{
