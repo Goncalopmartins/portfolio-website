@@ -9,6 +9,10 @@ img {
   }
 
 
+footer {background-color:#334155;
+    color:#fefefe
+}
+
 /*Typography*/
 
 h1, h2, h3, h4, h5, h6, p {line-height:1.5}
@@ -73,18 +77,18 @@ p.caption {
 /*Links and Buttons*/
 
 .alink {
-    color: #0e6dbb;
+    color: #8fb7d8;
     text-decoration: none;
 }
 .alink:hover {
-    color: #9b3e1c;
+    color: #fefefe;
     text-decoration: underline;
 }
 .alink:visited {
-    color: #7e05b6;
+    color: #c573eb;
 }
 .alink:active {
-    color: #0d5707;
+    color: #63ae5e;
 }
 .primary-button, .secondary-button{
     text-decoration: none;
