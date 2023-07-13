@@ -1,7 +1,7 @@
-body {background-color:#303741;
+body {background-color:#F8FAFC;
     font-family: 'Poppins', sans-serif;
     size: 16px;
-    color: #fefefe;
+    color:#334155;
 }
 h1, h2, h3, h4, h5, h6, p {line-height:1.5}
 h1 {
@@ -22,3 +22,17 @@ p {
 img {
     width: 100%;
   }
+a {
+    color: #0e6dbb;
+    text-decoration: none; /* No underlining */
+}
+a:hover {
+    color: #9b3e1c;
+    text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:visited { /* visited link */
+    color: #7e05b6;
+}
+a:active { /* selected link */
+    color: #0d5707;
+}
