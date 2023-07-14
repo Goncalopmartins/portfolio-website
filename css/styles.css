@@ -115,27 +115,35 @@ footer a:active {
     background-color: #334155;
     color:#fefefe;
 }
+.button:visited{
+    background-color: #31163a;
+    color:#fefefe
+}
 .button:hover {
     background-color: #111111;
-}
-.button:active {
-    background-color: #0a3bad;
 }
 .button:focus {
     background-color: lightskyblue;
     color:#334155;
 }
+.button:active {
+    background-color: #0a3bad;
+}
 .secondary-button {
     background-color: #dbe0e7;
     color: #334155;
 }
+.secondary-button:visited{
+    background-color: #fefefe;
+    color:#31163a
+}
 .secondary-button:hover {
     background-color: #fefefe;
-}
-.secondary-button:active {
-    background-color: lightskyblue;
 }
 .secondary-button:focus {
     background-color: #334155;
     color:#dbe0e7;
+}
+.secondary-button:active {
+    background-color: lightskyblue;
 }
