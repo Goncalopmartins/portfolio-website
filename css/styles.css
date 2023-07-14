@@ -35,7 +35,7 @@ h1 {
     opacity: 0.7;
     line-height: 1;
 }
-h1.byline {
+#projecthero h1 {
     font-size:20px;
     font-weight: 600;
     color: #fefefe;
