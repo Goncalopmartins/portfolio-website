@@ -85,18 +85,22 @@ p.caption {
 
 /*Links and Buttons*/
 
-.alink {
+footer a {
     color: #8fb7d8;
     text-decoration: none;
 }
-.alink:hover {
+footer a:visited {
+    color: #c573eb;
+}
+footer a:hover {
     color: #fefefe;
     text-decoration: underline;
 }
-.alink:visited {
-    color: #c573eb;
+footer a:focus{
+        color: #cc6540;
+        text-decoration: underline;
 }
-.alink:active {
+footer a:active {
     color: #63ae5e;
 }
 .primary-button, .secondary-button{
@@ -107,17 +111,17 @@ p.caption {
     border-radius: 40px;
     display:inline-block;
 }
-.primary-button {
+.button {
     background-color: #334155;
     color:#fefefe;
 }
-.primary-button:hover {
+.button:hover {
     background-color: #111111;
 }
-.primary-button:active {
+.button:active {
     background-color: #0a3bad;
 }
-.primary-button:focus {
+.button:focus {
     background-color: lightskyblue;
     color:#334155;
 }
