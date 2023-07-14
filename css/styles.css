@@ -103,7 +103,7 @@ footer a:focus{
 footer a:active {
     color: #63ae5e;
 }
-.primary-button, .secondary-button{
+.button{
     text-decoration: none;
     font-size:18px;
     font-weight:600;
