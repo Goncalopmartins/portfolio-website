@@ -110,24 +110,26 @@ footer a:active {
     padding: 10px 40px;
     border-radius: 40px;
     display:inline-block;
-}
-.button {
     background-color: #334155;
-    color:#fefefe;
+    color: #fefefe;
 }
 .button:visited{
     background-color: #31163a;
-    color:#fefefe
+    color:#fefefe;
+    text-decoration: none;
 }
 .button:hover {
     background-color: #111111;
+    text-decoration: none;
 }
 .button:focus {
     background-color: lightskyblue;
     color:#334155;
+    text-decoration: none;
 }
 .button:active {
     background-color: #0a3bad;
+    text-decoration: none;
 }
 .secondary-button {
     background-color: #dbe0e7;
@@ -135,7 +137,7 @@ footer a:active {
 }
 .secondary-button:visited{
     background-color: #fefefe;
-    color:#31163a
+    color:#31163a;
 }
 .secondary-button:hover {
     background-color: #fefefe;
@@ -147,4 +149,5 @@ footer a:active {
 }
 .secondary-button:active {
     background-color: lightskyblue;
+    color: #334155
 }
