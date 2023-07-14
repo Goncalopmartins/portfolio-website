@@ -139,6 +139,7 @@ footer a:active {
 }
 .secondary-button:hover {
     background-color: #fefefe;
+    color: #334155;
 }
 .secondary-button:focus {
     background-color: #334155;
