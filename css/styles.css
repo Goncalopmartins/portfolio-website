@@ -155,5 +155,6 @@ footer a:active {
 /*Layout Stylings*/
 
 .container {
-  padding: 0 15px;
+    max-width: 1200px;
+    padding: 0 15px;
 }
