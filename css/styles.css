@@ -151,3 +151,9 @@ footer a:active {
     background-color: lightskyblue;
     color: #334155
 }
+
+/*Layout Stylings*/
+
+.container {
+  padding: 0 15px;
+}
