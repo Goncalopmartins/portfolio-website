@@ -154,9 +154,16 @@ footer a:active {
 
 /*Layout Stylings*/
 
+/*general*/
 .container {
     max-width: 1200px;
     padding: 0 15px;
+}
+
+/*index page*/
+
+#indexhero h1 {
+    text-align: center; /* Centers text */
 }
 .row {
     margin: 25px 0;
