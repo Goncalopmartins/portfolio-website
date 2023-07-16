@@ -84,7 +84,10 @@ p.caption {
 
 
 /*Links and Buttons*/
-
+a {
+    color:#334155;
+    text-decoration: none;
+}
 footer a {
     color: #8fb7d8;
     text-decoration: none;
@@ -155,6 +158,30 @@ footer a:active {
 /*Layout Stylings*/
 
 /*general*/
+header {
+    background-color: #ffe4c4;
+    text-align: center;
+    padding: 10px 0px;
+}
+nav {
+    display: inline-block;
+    width: 100%;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+}
 .logo {
     max-width: 250px;
 }
@@ -164,7 +191,9 @@ footer a:active {
 }
 
 /*index page*/
-
+#indexhero {
+    background-color: #ffe4c4;
+  }
 #indexhero h1 {
     text-align: center; /* Centers text */
 }
