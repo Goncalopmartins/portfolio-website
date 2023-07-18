@@ -159,7 +159,7 @@ footer a:active {
 
 /*general*/
 header {
-    background-color: #ffe4c4;
+    background-color: #fefefe;
     text-align: center;
     padding: 10px 0px;
     position: fixed;
@@ -207,7 +207,6 @@ main {
 
 /*index page*/
 #indexhero {
-    background-color: #ffe4c4;
     display: inline-block;
     width: 100%;;
   }
