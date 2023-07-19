@@ -296,6 +296,18 @@ div.based {
     text-align: center;
 }
 
+/*About*/
+#aboutme picture img {
+    border-radius: 20px;
+}
+ul {
+    padding: 0px 15px;
+}
+#aboutme h3{
+    margin:0px;
+}
+
+
 /*Footer*/
 #contact .container{
     display: flex;
