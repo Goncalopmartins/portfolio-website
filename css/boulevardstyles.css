@@ -60,3 +60,15 @@ header {
 #aboutproject picture img {
     display: none;
 }
+
+/*Interviews*/
+
+svg {
+    width: 40px;
+    height: 40px;
+}
+.interviewoutputs {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
