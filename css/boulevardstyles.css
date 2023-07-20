@@ -1,3 +1,43 @@
 body {background-color:#F8FAFC;
     color:#334155
 }
+main {
+    padding-top: 100px;
+}
+header {
+    width: 100vw;
+}
+
+/*ProjectHero*/
+#projecthero {
+    position: relative;
+    height: 100vh;
+}
+#projecthero div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#projecthero h1 {
+    position:absolute;
+    z-index: 1;
+    top: 20px;
+}
+.boulevardlogo {
+    position:absolute;
+    z-index: 1;
+    top:100px;
+    width: 80%;
+}
+.clip {
+    position:absolute;
+    width: 100vw;
+    clip-path: inset(0);
+}
+#projecthero picture img {
+    height: 100%;
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%)
+}

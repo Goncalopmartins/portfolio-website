@@ -11,6 +11,7 @@ header {
     background-color: #fefefe;
     padding: 10px 0px;
     border-bottom: 1px solid #4a4a4a;
+    z-index: 2;
 }
 
 img {
