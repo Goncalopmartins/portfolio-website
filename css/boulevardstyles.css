@@ -23,12 +23,12 @@ main {
 #projecthero h1 {
     position:absolute;
     z-index: 1;
-    top: 20px;
+    top: 56px;
 }
 .boulevardlogo {
     position:absolute;
     z-index: 1;
-    top:100px;
+    top:120px;
     width: 80%;
 }
 .clip {
