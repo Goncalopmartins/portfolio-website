@@ -7,11 +7,16 @@ main {
 header {
     width: 100vw;
 }
+.section {
+    padding: 40px 0px;
+}
 
 /*ProjectHero*/
 #projecthero {
     position: relative;
     height: 100vh;
+    padding: 0px;
+    margin: 0px 0px 40px 0px;
 }
 #projecthero div {
     height: 100%;
@@ -40,4 +45,18 @@ header {
     width: auto;
     left: 50%;
     transform: translateX(-50%)
+}
+
+/*About Project*/
+
+.projectdetails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.singledetail {
+    width: 45%;
+}
+#aboutproject picture img {
+    display: none;
 }
