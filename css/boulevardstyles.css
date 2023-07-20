@@ -4,9 +4,6 @@ body {background-color:#F8FAFC;
 main {
     padding-top: 100px;
 }
-header {
-    width: 100vw;
-}
 .section {
     padding: 40px 0px;
 }
@@ -38,6 +35,7 @@ header {
     position:absolute;
     width: 100vw;
     clip-path: inset(0);
+    overflow: hidden;
 }
 #projecthero picture img {
     height: 100%;
