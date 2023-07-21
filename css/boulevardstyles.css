@@ -12,6 +12,11 @@ main {
     align-items: center;
     gap: 16px;
 }
+.scrollcontainer {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
 
 /*ProjectHero*/
 #projecthero {
@@ -74,4 +79,10 @@ svg {
     display: flex;
     gap: 40px;
     flex-direction: column;
+}
+
+/*Persona*/
+#persona picture img {
+    border-radius: 5%;
+    width: 250%;
 }
