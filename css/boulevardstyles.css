@@ -99,3 +99,24 @@ svg {
 .purchasingflow picture img {
     width: 70%;
 }
+
+/*High-fidelity*/
+#highfidelityhero picture img {
+    display:none;
+}
+#highfidelity .scrollcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.wirehifi {
+    display: flex;
+    flex-direction: column;
+}
+.wirehifi picture img {
+    width: 200px;
+}
+.hififlow {
+    width: 70%;
+    border-radius: 15px;
+}
