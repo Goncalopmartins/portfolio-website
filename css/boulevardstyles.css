@@ -86,3 +86,8 @@ svg {
     border-radius: 5%;
     width: 250%;
 }
+
+/*Sitemap*/
+#sitemap img {
+    width:300%
+}
