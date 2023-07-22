@@ -131,17 +131,12 @@ p.caption {
 /*Links and Buttons*/
 a {
     color:#334155;
-    text-decoration: none;
 }
 a:visited {
     color: #551A8B;
 }
-a:hover {
+a:hover a:focus {
     color: #111111;
-    text-decoration: underline;
-}
-a:focus{
-    color: #FFA500;
     text-decoration: underline;
 }
 a:active {
@@ -149,17 +144,12 @@ a:active {
 }
 footer a {
     color: #8fb7d8;
-    text-decoration: none;
 }
 footer a:visited {
     color: #c573eb;
 }
-footer a:hover {
+footer a:hover a:focus {
     color: #fefefe;
-    text-decoration: underline;
-}
-footer a:focus{
-    color: #cc6540;
     text-decoration: underline;
 }
 footer a:active {
@@ -182,13 +172,8 @@ footer a:active {
     color:#fefefe;
     text-decoration: none;
 }
-.button:hover {
+.button:hover .button:focus {
     background-color: #111111;
-    text-decoration: none;
-}
-.button:focus {
-    background-color: lightskyblue;
-    color:#334155;
     text-decoration: none;
 }
 .button:active {
@@ -203,13 +188,9 @@ footer a:active {
     background-color: #fefefe;
     color:#31163a;
 }
-.secondary-button:hover {
+.secondary-button:hover .secondary-button:focus {
     background-color: #fefefe;
     color: #334155;
-}
-.secondary-button:focus {
-    background-color: #334155;
-    color:#dbe0e7;
 }
 .secondary-button:active {
     background-color: lightskyblue;
