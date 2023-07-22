@@ -13,6 +13,12 @@ header {
     padding: 10px 0px;
     border-bottom: 1px solid #4a4a4a;
     z-index: 2;
+    background-color: #fefefe;
+    padding: 10px 0px;
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    width: 100%;
 }
 
 img {
@@ -116,17 +122,6 @@ p.caption {
     font-size: 0.875em
 }
 
-/*spans*/
-
-/*.introductory::before{
-    content: "\a";
-    white-space: pre;
-  }
-.newline::before{
-    content: "\a";
-    white-space: pre;
-  } */
-
 
 /*Links and Buttons*/
 a {
@@ -205,14 +200,6 @@ footer a:active {
 
 */
 
-header {
-    background-color: #fefefe;
-    padding: 10px 0px;
-    position: fixed;
-    display:flex;
-    justify-content: center;
-    width: 100%;
-}
 header div.container {
     display: flex;
     flex-direction: column;
