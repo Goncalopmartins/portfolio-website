@@ -34,39 +34,6 @@ footer {background-color:#334155;
 
 h1, h2, h3, h4, h5, h6, p {line-height:1.5}
 
-/*desktop
-h1 {
-    font-size: 2.75em;
-    font-weight: 900;
-}
-.introductory {
-    font-size: 2em;
-    font-weight: 400;
-    opacity: 0.7;
-    line-height: 1;
-}
-div.based p{
-    font-size: 1.25em;
-    font-weight: 400;
-    opacity: 0.7;
-    line-height: 1;
-}
-p.heroaction {
-    font-size: 1.25em;
-    font-weight: 400;
-    opacity: 0.7;
-    line-height: 1;
-}
-h2 {
-    font-size: 2.25em;
-    font-weight: 900;
-}
-h3 {
-    font-size: 1.75em;
-    font-weight: 600;
-}
-*/
-
 h1 {
     font-size: 2em;
     font-weight: 900;
@@ -338,6 +305,9 @@ Medium devices (640px and larger)
     nav ul {
         justify-content: right;
     }
+    main {
+        padding: 100px 0px 40px 0px;
+    }
     p.heroaction {
         display: block
     }
@@ -361,21 +331,64 @@ Medium devices (640px and larger)
     #projectsummary h3 {
         margin:0px
     }
-    .emailme {
+    .buttonwrapper {
         display: flex;
         justify-content: center;
     }
-    .secondary-button {
+    .button {
         display: flex;
         justify-content: center;
-        border: 16px;
+        padding: 10px 64px;
         width: auto;
     }
+    .skills {
+        display:flex;
+        gap: 80px;
+    }
 }
-
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
+    h1 {
+        font-size: 2.75em;
+        font-weight: 900;
+    }
+    .introductory {
+        font-size: 2em;
+        font-weight: 400;
+        opacity: 0.7;
+        line-height: 1;
+    }
+    div.based p{
+        font-size: 1.25em;
+        font-weight: 400;
+        opacity: 0.7;
+        line-height: 1;
+    }
+    p.heroaction {
+        font-size: 1.25em;
+        font-weight: 400;
+        opacity: 0.7;
+        line-height: 1;
+    }
+    h2 {
+        font-size: 2.25em;
+        font-weight: 900;
+    }
+    h3 {
+        font-size: 1.75em;
+        font-weight: 600;
+    }
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    #contact .container {
+        max-width: 640px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
