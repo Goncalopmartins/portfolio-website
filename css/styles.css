@@ -128,11 +128,16 @@ footer a:active {
     color: #fefefe;
     width: 100%;
     text-align: center;
+    transition-duration: 0.2s;
+    transition-property: opacity;
 }
 .button:visited{
     background-color: #31163a;
     color:#fefefe;
     text-decoration: none;
+}
+.button:hover {
+    opacity: 0.8;
 }
 .button:hover .button:focus {
     background-color: #111111;
