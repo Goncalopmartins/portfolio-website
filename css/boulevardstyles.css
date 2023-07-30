@@ -136,6 +136,7 @@ Medium devices (640px and larger)
         z-index: 1;
         top:100px;
         width: 60%;
+        max-width: 600px;
     }    
     .projectdetails {
         display: flex;
@@ -150,7 +151,6 @@ Medium devices (640px and larger)
     }
     /*Persona*/
     #persona picture img {
-        border-radius: 5%;
         width: 150%;
     }
     /*Sitemap*/
@@ -164,6 +164,7 @@ Medium devices (640px and larger)
     .purchasingflow picture img {
         width: 40%;
     }
+    /*Hi-fidelity*/
     .hififlow {
         width: 50%;
         border-radius: 15px;
@@ -178,5 +179,75 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 =================================*/
 @media only screen and (min-width: 1024px) {
+    .projectdetails {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+
+    /*Interviews*/
+
+    .itemsdiv {
+        display: flex;
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    /*Persona*/
+
+    #persona picture img {
+        width: 100%;
+    }
     
+    /*Sitemap*/
+    #sitemap img {
+        width:100%
+    }
+
+    /*Wireframes*/
+    .wireframesdiagram {
+        display: flex;
+        gap:5%;
+    }
+    .wireframeexplained {
+        width: 100%;
+    }
+    .purchasingflow {
+        display: flex;
+    }
+    .purchasingflow picture img {
+        width: 100%;
+    }
+
+    /*Hi-fidelity*/
+    #highfidelity .scrollcontainer {
+        display: flex;
+        width: 100%;
+        gap: 5%;
+    }
+    .wirehifi picture img {
+        width: 100%;
+    }
+    .hififlow {
+        width: 100%;
+        border-radius: 15px;
+    }
+    .otherscreens {
+        display: flex;
+    }
+    .hifiscreen {
+        width: 100%
+    }
+    .takeaways {
+        display: flex;
+        gap: 5%;
+    }
+    .takeawayitem {
+        width: 47.5%;
+    }
 }
