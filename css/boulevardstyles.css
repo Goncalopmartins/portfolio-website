@@ -50,9 +50,10 @@ main {
 #projecthero picture img {
     height: 100%;
     position: absolute;
-    width: auto;
+    width: 100%;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    object-fit: cover;
 }
 
 /*About Project*/
