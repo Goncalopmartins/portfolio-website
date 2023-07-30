@@ -345,6 +345,11 @@ Medium devices (640px and larger)
         display:flex;
         gap: 80px;
     }
+    #aboutme picture img {
+        height: 400px;
+        object-fit: cover;
+        object-position: 50% 0%;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -390,5 +395,23 @@ Large devices (1024px or larger)
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+    #aboutme picture img {
+        height: 800px;
+        object-fit: cover;
+        object-position: 50% 0%;
+    }
+    .profile {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mystory {
+        width: 55%;
+    }
+    .skilltools {
+        width: 40%;
+    }
+    .skills {
+        gap: 40px;
     }
 }
