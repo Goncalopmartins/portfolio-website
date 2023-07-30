@@ -101,9 +101,6 @@ svg {
 }
 
 /*High-fidelity*/
-#highfidelityhero picture img {
-    display:none;
-}
 #highfidelity .scrollcontainer {
     display: flex;
     flex-direction: row;
@@ -119,4 +116,67 @@ svg {
 .hififlow {
     width: 70%;
     border-radius: 15px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+    main {
+        padding-top: 76px;
+    }  
+    /*About Project*/
+    #projecthero h1 {
+        position:absolute;
+        z-index: 1;
+        top: 40px;
+    }
+    .boulevardlogo {
+        position:absolute;
+        z-index: 1;
+        top:100px;
+        width: 80%;
+    }    
+    .projectdetails {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    .singledetail {
+        width: 160px;
+    }
+    #aboutproject picture img {
+        display: none;
+    }
+    /*Persona*/
+    #persona picture img {
+        border-radius: 5%;
+        width: 150%;
+    }
+    /*Sitemap*/
+    #sitemap img {
+        width:150%
+    }
+    /*Wireframes*/
+    .wireframeexplained {
+        width: 100%;
+    }
+    .purchasingflow picture img {
+        width: 40%;
+    }
+    .hififlow {
+        width: 50%;
+        border-radius: 15px;
+    }
+    .hifiscreen {
+        width: 45%
+    }
+}
+
+
+/* ==============================
+Large devices (1024px or larger)
+=================================*/
+@media only screen and (min-width: 1024px) {
+
 }
