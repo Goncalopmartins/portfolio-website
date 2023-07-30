@@ -296,6 +296,9 @@ main {
 .centered {
     text-align: center;
 }
+p.hide {
+    display:none
+}
 
 /*About*/
 #aboutme picture img {
@@ -319,4 +322,60 @@ ul {
     gap: 16px;
     width: 100%;
     justify-content: center;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+    header .container {
+        justify-content: space-between;
+        flex-direction: row;
+      }
+    .logo {
+        margin: 0px
+    }
+    nav ul {
+        justify-content: right;
+    }
+    p.heroaction {
+        display: block
+    }
+    #projectsummary div.row {
+        display: flex;
+        gap: 5%;
+    }
+    .col-md-6 {
+        width: 47.5%;
+    }
+    .thumbnail {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+    #projectsummary picture img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #projectsummary h3 {
+        margin:0px
+    }
+    .emailme {
+        display: flex;
+        justify-content: center;
+    }
+    .secondary-button {
+        display: flex;
+        justify-content: center;
+        border: 16px;
+        width: auto;
+    }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+
 }
