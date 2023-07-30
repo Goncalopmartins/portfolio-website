@@ -427,6 +427,9 @@ Large devices (1024px or larger)
     width:100%;
     height:auto;
 }
+.animation {
+    margin: 40px 0px;
+}
 @keyframes color-changel {
     from {fill: #90CAF9;}
     to {fill: #2196F3;}
