@@ -135,7 +135,7 @@ Medium devices (640px and larger)
         position:absolute;
         z-index: 1;
         top:100px;
-        width: 80%;
+        width: 60%;
     }    
     .projectdetails {
         display: flex;
@@ -178,5 +178,5 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 =================================*/
 @media only screen and (min-width: 1024px) {
-
+    
 }
