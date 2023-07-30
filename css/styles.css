@@ -420,3 +420,32 @@ Large devices (1024px or larger)
         gap: 40px;
     }
 }
+
+/*Animation*/
+
+.lisbonanimation {
+    width:100%;
+    height:auto;
+}
+@keyframes color-changel {
+    from {fill: #90CAF9;}
+    to {fill: #2196F3;}
+    }
+@keyframes color-changed {
+    from {fill:#2196F3;}
+    to {fill: #90CAF9;}
+    }
+.lightwater {
+    animation-duration: 2s;
+    animation-name: color-changel;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+    .darkwater {
+    animation-duration: 2s;
+    animation-name: color-changed;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
