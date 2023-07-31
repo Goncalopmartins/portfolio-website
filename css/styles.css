@@ -187,7 +187,7 @@ header .container {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 nav {
     display: inline-block;
@@ -232,7 +232,7 @@ nav > ul > li > a:focus {
 }
 .logo {
     margin: 15px 0px 0px 0px;
-    max-width: 250px;
+    max-width: 350px;
 }
 main {
     padding-top: 100px;
@@ -299,6 +299,7 @@ ul {
 #contact .container{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 #contact .socialicons{
     display: flex;
@@ -342,7 +343,7 @@ Medium devices (640px and larger)
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: end;
+        align-items: start;
     }
     #projectsummary picture img {
         height: 100%;
@@ -376,6 +377,10 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+    .logo {
+        width: 300px;
+        margin: 0px;
+    }
     h1 {
         font-size: 2.75em;
         font-weight: 900;
