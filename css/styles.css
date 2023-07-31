@@ -92,6 +92,11 @@ p.caption {
 .small {
     font-size: 0.875em
 }
+.textblock {
+    display: block;
+    text-align: left;
+    width:100%
+}
 
 
 /*Links and Buttons*/
@@ -335,8 +340,9 @@ Medium devices (640px and larger)
     }
     .thumbnail {
         display: flex;
-        align-items: stretch;
+        flex-direction: column;
         justify-content: center;
+        align-items: end;
     }
     #projectsummary picture img {
         height: 100%;
