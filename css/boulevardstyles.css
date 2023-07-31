@@ -5,7 +5,7 @@ main {
     padding-top: 100px;
 }
 .section {
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 .infoitem {
     display: flex;
@@ -104,12 +104,13 @@ svg {
 /*High-fidelity*/
 #highfidelity .scrollcontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
 }
 .wirehifi {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 5%;
 }
 .wirehifi picture img {
     width: 200px;
@@ -117,6 +118,7 @@ svg {
 .hififlow {
     width: 70%;
     border-radius: 15px;
+    border: 2px solid #78828f;
 }
 
 /* ==============================
@@ -126,6 +128,9 @@ Medium devices (640px and larger)
     main {
         padding-top: 76px;
     }  
+    .section {
+        padding: 40px 0px;
+    }
     /*About Project*/
     #projecthero h1 {
         position:absolute;
@@ -225,11 +230,23 @@ Large devices (1024px or larger)
         width: 100%;
     }
 
+
+    .wirehifi {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+    }
     /*Hi-fidelity*/
     #highfidelity .scrollcontainer {
         display: flex;
+        flex-direction: row;
         width: 100%;
         gap: 5%;
+        overflow-x: none;
+    }
+    .wirehifi {
+        flex-direction: column;
+        gap: 20px;
     }
     .wirehifi picture img {
         width: 100%;

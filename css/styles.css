@@ -25,6 +25,10 @@ img {
     width: 100%;
   }
 
+.section {
+    padding: 20px 0px;
+}
+
 
 footer {background-color:#334155;
     color:#fefefe
@@ -220,14 +224,13 @@ nav > ul > li > a:hover {
 }
 nav > ul > li > a:focus {
     color:#323f58;
-    text-decoration: underline;
 }
 .logo {
     margin: 15px 0px 0px 0px;
     max-width: 250px;
 }
 main {
-    padding-top: 133px;
+    padding-top: 100px;
 }
 .container {
     max-width: 1200px;
@@ -237,7 +240,7 @@ main {
 /*index page*/
 #indexhero {
     display: inline-block;
-    width: 100%;;
+    width: 100%;
   }
 #indexhero h1 {
     text-align: center;
@@ -275,6 +278,9 @@ p.hide {
 /*About*/
 #aboutme picture img {
     border-radius: 20px;
+    object-fit: cover;
+    height: 50vh;
+    object-position: 50% 0%;
 }
 ul {
     padding: 0px 15px;
@@ -300,6 +306,9 @@ ul {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+    .section {
+        padding: 40px 0px;
+    }
     header .container {
         justify-content: space-between;
         flex-direction: row;
@@ -389,6 +398,9 @@ Large devices (1024px or larger)
     h3 {
         font-size: 1.75em;
         font-weight: 600;
+    }
+    nav > ul > li > a:focus {
+        text-decoration: underline;
     }
     .container {
         max-width: 1200px;
