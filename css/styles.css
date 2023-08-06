@@ -333,7 +333,7 @@ Medium devices (640px and larger)
         flex-direction: row;
       }
     .logo {
-        margin: 0px;
+        margin: 4px 0px 0px 0px;
         min-width: 250px;
     }
     nav ul {
@@ -343,6 +343,12 @@ Medium devices (640px and larger)
     }
     nav > ul > li > a {
         padding: 15px;
+    }
+    .navtoggle {
+        display:flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
     }
     .navtoggle li:not(:last-child) {
         display: inline-block;
@@ -403,7 +409,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
     .logo {
-        width: 300px;
+        width: 350px;
         margin: 0px;
     }
     h1 {
