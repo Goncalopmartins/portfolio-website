@@ -1,271 +1,270 @@
-body {background-color:#F8FAFC;
-    color:#334155
+body {
+  background-color: #f8fafc;
+  color: #334155;
 }
 main {
-    padding-top: 56px;
+  padding-top: 56px;
 }
 .section {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 .infoitem {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 .scrollcontainer {
-    width: 100%;
-    overflow-x: scroll;
-    white-space: nowrap;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 /*ProjectHero*/
 #projecthero {
-    position: relative;
-    height: 100vh;
-    padding: 0px;
-    margin: 0px 0px 40px 0px;
+  position: relative;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px 0px 40px 0px;
 }
 #projecthero div {
-    height: 100%;
-    display: flex;
-    justify-content: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 #projecthero h1 {
-    position:absolute;
-    z-index: 1;
-    top: 56px;
+  position: absolute;
+  z-index: 1;
+  top: 56px;
 }
 .boulevardlogo {
-    position:absolute;
-    z-index: 1;
-    top:120px;
-    width: 80%;
+  position: absolute;
+  z-index: 1;
+  top: 120px;
+  width: 80%;
 }
 .clip {
-    position:absolute;
-    width: 100vw;
-    clip-path: inset(0);
-    overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  clip-path: inset(0);
+  overflow: hidden;
 }
 #projecthero picture img {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    object-fit: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
 }
 
 /*About Project*/
 
 .projectdetails {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
 }
 .singledetail {
-    width: 45%;
+  width: 45%;
 }
 #aboutproject picture img {
-    display: none;
+  display: none;
 }
 
 /*Interviews*/
 
 svg {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 .interviewoutputs {
-    display: flex;
-    gap: 40px;
-    flex-direction: column;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
 }
 
 /*Persona*/
 #persona picture img {
-    border-radius: 5%;
-    width: 250%;
+  border-radius: 5%;
+  width: 250%;
 }
 
 /*Sitemap*/
 #sitemap img {
-    width:300%
+  width: 300%;
 }
 
 /*Wireframes*/
 .wireframeexplained {
-    width: 150%;
+  width: 150%;
 }
 .purchasingflow picture img {
-    width: 70%;
+  width: 70%;
 }
 
 /*High-fidelity*/
 #highfidelity .scrollcontainer {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .wirehifi {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
 }
 .wirehifi picture img {
-    width: 200px;
+  width: 200px;
 }
 .hififlow {
-    width: 70%;
-    border-radius: 15px;
-    border: 2px solid #78828f;
+  width: 70%;
+  border-radius: 15px;
+  border: 2px solid #78828f;
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-    main {
-        padding-top: 76px;
-    }  
-    .section {
-        padding: 40px 0px;
-    }
-    /*About Project*/
-    #projecthero h1 {
-        position:absolute;
-        z-index: 1;
-        top: 40px;
-    }
-    .boulevardlogo {
-        position:absolute;
-        z-index: 1;
-        top:100px;
-        width: 60%;
-        max-width: 600px;
-    }    
-    .projectdetails {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10%;
-    }
-    .singledetail {
-        width: 160px;
-    }
-    #aboutproject picture img {
-        display: none;
-    }
-    /*Persona*/
-    #persona picture img {
-        width: 150%;
-    }
-    /*Sitemap*/
-    #sitemap img {
-        width:150%
-    }
-    /*Wireframes*/
-    .wireframeexplained {
-        width: 100%;
-    }
-    .purchasingflow picture img {
-        width: 40%;
-    }
-    /*Hi-fidelity*/
-    .hififlow {
-        width: 50%;
-        border-radius: 15px;
-    }
-    .hifiscreen {
-        width: 45%
-    }
+  main {
+    padding-top: 76px;
+  }
+  .section {
+    padding: 40px 0px;
+  }
+  /*About Project*/
+  #projecthero h1 {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+  }
+  .boulevardlogo {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    width: 60%;
+    max-width: 600px;
+  }
+  .projectdetails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+  .singledetail {
+    width: 160px;
+  }
+  #aboutproject picture img {
+    display: none;
+  }
+  /*Persona*/
+  #persona picture img {
+    width: 150%;
+  }
+  /*Sitemap*/
+  #sitemap img {
+    width: 150%;
+  }
+  /*Wireframes*/
+  .wireframeexplained {
+    width: 100%;
+  }
+  .purchasingflow picture img {
+    width: 40%;
+  }
+  /*Hi-fidelity*/
+  .hififlow {
+    width: 50%;
+    border-radius: 15px;
+  }
+  .hifiscreen {
+    width: 45%;
+  }
 }
-
 
 /* ==============================
 Large devices (1024px or larger)
 =================================*/
 @media only screen and (min-width: 1024px) {
-    .projectdetails {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5%;
-    }
+  .projectdetails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
 
-    /*Interviews*/
+  /*Interviews*/
 
-    .itemsdiv {
-        display: flex;
-        gap: 5%;
-        flex-wrap: wrap;
-    }
-    .item {
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-    }
+  .itemsdiv {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
 
-    /*Persona*/
+  /*Persona*/
 
-    #persona picture img {
-        width: 100%;
-    }
-    
-    /*Sitemap*/
-    #sitemap img {
-        width:100%
-    }
+  #persona picture img {
+    width: 100%;
+  }
 
-    /*Wireframes*/
-    .wireframesdiagram {
-        display: flex;
-        gap:5%;
-    }
-    .wireframeexplained {
-        width: 100%;
-    }
-    .purchasingflow {
-        display: flex;
-    }
-    .purchasingflow picture img {
-        width: 100%;
-    }
+  /*Sitemap*/
+  #sitemap img {
+    width: 100%;
+  }
 
+  /*Wireframes*/
+  .wireframesdiagram {
+    display: flex;
+    gap: 5%;
+  }
+  .wireframeexplained {
+    width: 100%;
+  }
+  .purchasingflow {
+    display: flex;
+  }
+  .purchasingflow picture img {
+    width: 100%;
+  }
 
-    .wirehifi {
-        display: flex;
-        flex-direction: row;
-        gap: 5%;
-    }
-    /*Hi-fidelity*/
-    #highfidelity .scrollcontainer {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        gap: 5%;
-        overflow-x: none;
-    }
-    .wirehifi {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .wirehifi picture img {
-        width: 100%;
-    }
-    .hififlow {
-        width: 100%;
-        border-radius: 15px;
-    }
-    .otherscreens {
-        display: flex;
-    }
-    .hifiscreen {
-        width: 100%
-    }
-    .takeaways {
-        display: flex;
-        gap: 5%;
-    }
-    .takeawayitem {
-        width: 47.5%;
-    }
+  .wirehifi {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  /*Hi-fidelity*/
+  #highfidelity .scrollcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+    overflow-x: none;
+  }
+  .wirehifi {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .wirehifi picture img {
+    width: 100%;
+  }
+  .hififlow {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .otherscreens {
+    display: flex;
+  }
+  .hifiscreen {
+    width: 100%;
+  }
+  .takeaways {
+    display: flex;
+    gap: 5%;
+  }
+  .takeawayitem {
+    width: 47.5%;
+  }
 }

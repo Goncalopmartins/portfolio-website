@@ -1,176 +1,184 @@
 * {
-    box-sizing: border-box;
-  }
-  body {background-color:#F8FAFC;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color:#334155;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #334155;
 }
 header {
-    background-color: #fefefe;
-    padding: 10px 0px;
-    border-bottom: 1px solid #4a4a4a;
-    z-index: 2;
-    background-color: #fefefe;
-    padding: 10px 0px;
-    position: fixed;
-    display:flex;
-    justify-content: center;
-    width: 100%;
+  background-color: #fefefe;
+  padding: 10px 0px;
+  border-bottom: 1px solid #4a4a4a;
+  z-index: 2;
+  background-color: #fefefe;
+  padding: 10px 0px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 img {
-    width: 100%;
-  }
-
-.section {
-    padding: 20px 0px;
+  width: 100%;
 }
 
+.section {
+  padding: 20px 0px;
+}
 
-footer {background-color:#334155;
-    color:#fefefe
+footer {
+  background-color: #334155;
+  color: #fefefe;
 }
 
 /*Typography*/
 
-h1, h2, h3, h4, h5, h6, p {line-height:1.5}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.5;
+}
 
 h1 {
-    font-size: 2em;
-    font-weight: 900;
+  font-size: 2em;
+  font-weight: 900;
 }
 .introductory {
-    font-size: 1.5em;
-    font-weight: 400;
-    opacity: 0.7;
+  font-size: 1.5em;
+  font-weight: 400;
+  opacity: 0.7;
 }
-div.based p{
-    font-size: 1em;
-    font-weight: 400;
-    opacity: 0.7;
-    line-height: 1.3;
+div.based p {
+  font-size: 1em;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 1.3;
 }
 p.heroaction {
-    font-size: 1em;
-    font-weight: 400;
-    opacity: 0.7;
-    line-height: 1.3;
-    display: none;
+  font-size: 1em;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 1.3;
+  display: none;
 }
 #projecthero h1 {
-    font-size:20px;
-    font-weight: 600;
-    color: #fefefe;
-    text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fefefe;
+  text-transform: uppercase;
 }
 .light {
-    color:#fefefe;
+  color: #fefefe;
 }
 h2 {
-    font-size: 1.8em;
-    font-weight: 900;
+  font-size: 1.8em;
+  font-weight: 900;
 }
 h3 {
-    font-size: 1.5em;
-    font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 .byline {
-    font-size:20px;
-    font-weight: 600;
-    color: #334155;
-    text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #334155;
+  text-transform: uppercase;
 }
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 p.caption {
-    font-size: 0.75em;
+  font-size: 0.75em;
 }
 .small {
-    font-size: 0.875em
+  font-size: 0.875em;
 }
 .textblock {
-    display: block;
-    text-align: left;
-    width:100%
+  display: block;
+  text-align: left;
+  width: 100%;
 }
-
 
 /*Links and Buttons*/
 a {
-    color:#334155;
+  color: #334155;
 }
 a:visited {
-    color: #551A8B;
+  color: #551a8b;
 }
 a:hover a:focus {
-    color: #111111;
-    text-decoration: underline;
+  color: #111111;
+  text-decoration: underline;
 }
 a:active {
-    color: #008000;
+  color: #008000;
 }
 footer a {
-    color: #8fb7d8;
+  color: #8fb7d8;
 }
 footer a:visited {
-    color: #c573eb;
+  color: #c573eb;
 }
 footer a:hover a:focus {
-    color: #fefefe;
-    text-decoration: underline;
+  color: #fefefe;
+  text-decoration: underline;
 }
 footer a:active {
-    color: #63ae5e;
+  color: #63ae5e;
 }
-.button{
-    text-decoration: none;
-    font-size:18px;
-    font-weight:600;
-    padding: 10px 40px;
-    border-radius: 40px;
-    display:inline-block;
-    background-color: #334155;
-    color: #fefefe;
-    width: 100%;
-    text-align: center;
-    transition-duration: 0.2s;
-    transition-property: opacity;
+.button {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 40px;
+  border-radius: 40px;
+  display: inline-block;
+  background-color: #334155;
+  color: #fefefe;
+  width: 100%;
+  text-align: center;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
-.button:visited{
-    background-color: #31163a;
-    color:#fefefe;
-    text-decoration: none;
+.button:visited {
+  background-color: #31163a;
+  color: #fefefe;
+  text-decoration: none;
 }
 .button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 .button:hover .button:focus {
-    background-color: #111111;
-    text-decoration: none;
+  background-color: #111111;
+  text-decoration: none;
 }
 .button:active {
-    background-color: #0a3bad;
-    text-decoration: none;
+  background-color: #0a3bad;
+  text-decoration: none;
 }
 .secondary-button {
-    background-color: #dbe0e7;
-    color: #334155;
+  background-color: #dbe0e7;
+  color: #334155;
 }
-.secondary-button:visited{
-    background-color: #fefefe;
-    color:#31163a;
+.secondary-button:visited {
+  background-color: #fefefe;
+  color: #31163a;
 }
 .secondary-button:hover .secondary-button:focus {
-    background-color: #fefefe;
-    color: #334155;
+  background-color: #fefefe;
+  color: #334155;
 }
 .secondary-button:active {
-    background-color: lightskyblue;
-    color: #334155
+  background-color: lightskyblue;
+  color: #334155;
 }
 
 /*Layout Stylings*/
@@ -182,328 +190,336 @@ footer a:active {
 */
 
 header .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
 }
 nav > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .navtoggle li:not(:last-child) {
-    display: none;
+  display: none;
 }
-.navtoggle, .navtoggle.responsive {
-    position: relative;
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
 }
-.navtoggle.responsive li  {
-    display: block;
+.navtoggle.responsive li {
+  display: block;
 }
 .navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 8px;
-    padding-right: 0px;
-    font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 8px;
+  padding-right: 0px;
+  font-size: 20px;
 }
 .navtoggle.responsive nav {
-    padding: 16px 0 0;
+  padding: 16px 0 0;
 }
-.navtoggle.responsive li  {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid #33415534;
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #33415534;
 }
 nav > ul > li > a {
-    padding: 0px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #4a4a4a;
-    text-decoration: none;
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
 }
 nav > ul > li > a:visited {
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #4a4a4a;
-    text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
 }
 nav > ul > li > a:active {
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #4a4a4a;
-    text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
 }
 nav > ul > li > a:hover {
-    color:#323f58;
-    text-decoration: underline;
+  color: #323f58;
+  text-decoration: underline;
 }
 nav > ul > li > a:focus {
-    color:#323f58;
+  color: #323f58;
 }
 .logo {
-    margin: 15px 0px 0px 0px;
-    max-width: 200px;
+  margin: 15px 0px 0px 0px;
+  max-width: 200px;
 }
 main {
-    padding-top: 56px;
+  padding-top: 56px;
 }
 .container {
-    max-width: 1200px;
-    padding: 0 15px;
+  max-width: 1200px;
+  padding: 0 15px;
 }
 
 /*index page*/
 #indexhero {
-    display: inline-block;
-    width: 100%;
-  }
+  display: inline-block;
+  width: 100%;
+}
 #indexhero h1 {
-    text-align: center;
+  text-align: center;
 }
 #indexhero p.introductory {
-    text-align: center;
+  text-align: center;
 }
 #indexhero .container {
-    text-align: center;
+  text-align: center;
 }
 .row {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 .based {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .portugal {
-    width: 24px;
-    height: 18px;
-    border-radius: 5px;
+  width: 24px;
+  height: 18px;
+  border-radius: 5px;
 }
 #projectsummary picture img {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .centered {
-    text-align: center;
+  text-align: center;
 }
 p.hide {
-    display:none
+  display: none;
 }
 
 /*About*/
 #aboutme picture img {
-    border-radius: 20px;
-    object-fit: cover;
-    height: 50vh;
-    object-position: 50% 0%;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 50vh;
+  object-position: 50% 0%;
 }
 ul {
-    padding: 0px 15px;
+  padding: 0px 15px;
 }
-#aboutme h3{
-    margin:0px;
+#aboutme h3 {
+  margin: 0px;
 }
-
 
 /*Footer*/
-#contact .container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-#contact .socialicons{
-    display: flex;
-    gap: 16px;
-    width: 100%;
-    justify-content: center;
+#contact .socialicons {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-    .section {
-        padding: 40px 0px;
-    }
-    header .container {
-        justify-content: space-between;
-        flex-direction: row;
-      }
-    .logo {
-        margin: 4px 0px 0px 0px;
-        min-width: 250px;
-    }
-    nav ul {
-        display: flex;
-        justify-content: right;
-        margin: 1em 0;
-    }
-    nav > ul > li > a {
-        padding: 15px;
-    }
-    .navtoggle {
-        display:flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .navtoggle li:not(:last-child) {
-        display: inline-block;
-    }
-    .navtoggle li:last-child {
-        display: none;
-    }
-    main {
-        padding: 100px 0px 40px 0px;
-    }
-    p.heroaction {
-        display: block
-    }
-    #projectsummary div.flex {
-        display: flex;
-        flex-direction: row;
-        gap: 5%;
-    }
-    .col-md-6 {
-        width: 47.5%;
-    }
-    .thumbnail {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-    }
-    #projectsummary picture img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-    #projectsummary h3 {
-        margin:0px
-    }
-    .buttonwrapper {
-        display: flex;
-        justify-content: center;
-    }
-    .button {
-        display: flex;
-        justify-content: center;
-        padding: 10px 64px;
-        width: auto;
-    }
-    .skills {
-        display:flex;
-        gap: 80px;
-    }
-    #aboutme picture img {
-        height: 400px;
-        object-fit: cover;
-        object-position: 50% 0%;
-    }
+  .section {
+    padding: 40px 0px;
+  }
+  header .container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .logo {
+    margin: 4px 0px 0px 0px;
+    min-width: 250px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: right;
+    margin: 1em 0;
+  }
+  nav > ul > li > a {
+    padding: 15px;
+  }
+  .navtoggle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+  main {
+    padding: 100px 0px 40px 0px;
+  }
+  p.heroaction {
+    display: block;
+  }
+  #projectsummary div.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .col-md-6 {
+    width: 47.5%;
+  }
+  .thumbnail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  #projectsummary picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #projectsummary h3 {
+    margin: 0px;
+  }
+  .buttonwrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 64px;
+    width: auto;
+  }
+  .skills {
+    display: flex;
+    gap: 80px;
+  }
+  #aboutme picture img {
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 0%;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-    .logo {
-        width: 350px;
-        margin: 0px;
-    }
-    h1 {
-        font-size: 2.75em;
-        font-weight: 900;
-    }
-    .introductory {
-        font-size: 2em;
-        font-weight: 400;
-        opacity: 0.7;
-        line-height: 1;
-    }
-    div.based p{
-        font-size: 1.25em;
-        font-weight: 400;
-        opacity: 0.7;
-        line-height: 1;
-    }
-    p.heroaction {
-        font-size: 1.25em;
-        font-weight: 400;
-        opacity: 0.7;
-        line-height: 1;
-    }
-    h2 {
-        font-size: 2.25em;
-        font-weight: 900;
-    }
-    h3 {
-        font-size: 1.75em;
-        font-weight: 600;
-    }
-    nav > ul > li > a:focus {
-        text-decoration: underline;
-    }
-    .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    #contact .container {
-        max-width: 640px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    #aboutme picture img {
-        height: 800px;
-        object-fit: cover;
-        object-position: 50% 0%;
-    }
-    .profile {
-        display: flex;
-        justify-content: space-between;
-    }
-    .mystory {
-        width: 55%;
-    }
-    .skilltools {
-        width: 40%;
-    }
-    .skills {
-        gap: 40px;
-    }
+  .logo {
+    width: 350px;
+    margin: 0px;
+  }
+  h1 {
+    font-size: 2.75em;
+    font-weight: 900;
+  }
+  .introductory {
+    font-size: 2em;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 1;
+  }
+  div.based p {
+    font-size: 1.25em;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 1;
+  }
+  p.heroaction {
+    font-size: 1.25em;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 2.25em;
+    font-weight: 900;
+  }
+  h3 {
+    font-size: 1.75em;
+    font-weight: 600;
+  }
+  nav > ul > li > a:focus {
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contact .container {
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #aboutme picture img {
+    height: 800px;
+    object-fit: cover;
+    object-position: 50% 0%;
+  }
+  .profile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mystory {
+    width: 55%;
+  }
+  .skilltools {
+    width: 40%;
+  }
+  .skills {
+    gap: 40px;
+  }
 }
 
 /*Animation*/
 
 .lisbonanimation {
-    width:100%;
-    height:auto;
+  width: 100%;
+  height: auto;
 }
 .animation {
-    margin: 40px 0px;
+  margin: 40px 0px;
 }
 @keyframes color-changel {
-    from {fill: #90CAF9;}
-    to {fill: #2196F3;}
-    }
-@keyframes color-changed {
-    from {fill:#2196F3;}
-    to {fill: #90CAF9;}
-    }
-.lightwater {
-    animation-duration: 2s;
-    animation-name: color-changel;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+  from {
+    fill: #90caf9;
   }
-    .darkwater {
-    animation-duration: 2s;
-    animation-name: color-changed;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+  to {
+    fill: #2196f3;
+  }
+}
+@keyframes color-changed {
+  from {
+    fill: #2196f3;
+  }
+  to {
+    fill: #90caf9;
+  }
+}
+.lightwater {
+  animation-duration: 2s;
+  animation-name: color-changel;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.darkwater {
+  animation-duration: 2s;
+  animation-name: color-changed;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
